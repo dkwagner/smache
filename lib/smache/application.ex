@@ -6,7 +6,8 @@ defmodule Smache.Application do
 
     children = [
       supervisor(SmacheWeb.Endpoint, []),
-      supervisor(Smache.Supervisor, [])
+      supervisor(Smache.Supervisor, []),
+      Smache.TcpServer
     ]
 
     opts = [
