@@ -72,7 +72,7 @@ _data key must always be an object_
 
 ## Why was this built?
 
-As an expirement. Turns out it works.
+As an experiment. Turns out it works.
 
 Here's why developement has continued:
 
